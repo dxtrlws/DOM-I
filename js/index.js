@@ -152,3 +152,5 @@ email.textContent = siteContent.contact.email;
 // Set footer
 let footer = document.querySelector("footer > p");
 footer.textContent = siteContent.footer.copyright;
+
+document.querySelector('button').addEventListener('click',() => alert('Lets go baby!'));
