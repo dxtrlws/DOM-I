@@ -70,7 +70,7 @@ function createNavLink(element, text) {
   linkElement.setAttribute("src", "#");
   linkElement.textContent = text;
   const nav = document.querySelector("nav");
-  return { linkElement: linkElement, nav: nav };
+  return { linkElement, nav };
 }
 
 function appNewLink(element, text, cb) {
